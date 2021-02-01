@@ -216,18 +216,16 @@ $('.burger-dropt-about-d').toggleClick([
     //accordion
     $('.serv-btn-1').toggleClick([
         function () {
-            $('.svg-plus1').css("display","block");
+            $('.svg-plus1').css("display","inline");
             $('.svg-minus1').css("display","none");
         },
         function () {
             $('.svg-plus1').css("display","none");
-            $('.svg-minus1').css("display","block");
+            $('.svg-minus1').css("display","inline");
         }
     ]);
     $('.serv-btn-2').toggleClick([
         function () {
-            // $('.svg-plus1').css("display","block");
-            // $('.svg-minus1').css("display","none");
             $('.svg-plus2').css("display","none");
             $('.svg-minus2').css("display","inline");
         },

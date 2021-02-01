@@ -59738,15 +59738,13 @@ if (jquery__WEBPACK_IMPORTED_MODULE_0___default()('*').is('main')) {
   }]); //accordion
 
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.serv-btn-1').toggleClick([function () {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-plus1').css("display", "block");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-plus1').css("display", "inline");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-minus1').css("display", "none");
   }, function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-plus1').css("display", "none");
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-minus1').css("display", "block");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-minus1').css("display", "inline");
   }]);
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.serv-btn-2').toggleClick([function () {
-    // $('.svg-plus1').css("display","block");
-    // $('.svg-minus1').css("display","none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-plus2').css("display", "none");
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.svg-minus2').css("display", "inline");
   }, function () {
@@ -59803,8 +59801,8 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(".btn-general2").mouseout(function
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\User\Documents\Alliance-networks\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\User\Documents\Alliance-networks\src\sass\app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! C:\Users\Nadia\Desktop\Alliance-networks\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Nadia\Desktop\Alliance-networks\src\sass\app.scss */"./src/sass/app.scss");
 
 
 /***/ })
